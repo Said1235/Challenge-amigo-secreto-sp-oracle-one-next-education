@@ -1,39 +1,72 @@
-# 🎁 Sorteo de Amigos - Oracle Next Education  
+# Amigo Secreto 🎁
 
-Este proyecto forma parte del programa **Oracle Next Education** y permite gestionar una lista de amigos y sortear un resultado de manera sencilla.  
+¡Bienvenido al proyecto **Amigo Secreto**! Este es un divertido juego interactivo que permite a los usuarios agregar nombres de amigos y realizar un sorteo para asignar un "amigo secreto" de manera aleatoria. El proyecto está diseñado con HTML, CSS y JavaScript, y es completamente funcional en el navegador.
 
-## 🔨 Funcionalidades del proyecto  
-- ✅ **Colocar la lista de amigos**: Agrega los nombres de los participantes.  
-- ✅ **Sortear los amigos**: El sistema elige aleatoriamente un amigo de la lista.  
-- ✅ **Mostrar el resultado**: Se muestra el nombre del amigo seleccionado.  
+## 🚀 Características
 
-## 🔖 Tecnologías utilizadas  
-- 🟢 **JavaScript** – Lógica del sorteo y manipulación del DOM.  
-- 🔵 **HTML** – Estructura del sitio web.  
-- 🟣 **CSS** – Estilos y diseño visual.  
+- **Agregar amigos**: Los usuarios pueden ingresar nombres de amigos para participar en el sorteo.
+- **Validación de entradas**: Se asegura que los nombres sean válidos y no se repitan.
+- **Sorteo animado**: El sorteo incluye una animación que resalta los nombres antes de seleccionar al ganador.
+- **Notificaciones**: Muestra mensajes de éxito o error con sonidos personalizados.
+- **Reinicio del juego**: Una vez que todos los amigos han sido sorteados, se puede reiniciar el juego para comenzar de nuevo.
 
-## ⚠️ Problemas y soluciones comunes  
+## 🌐 Demo en vivo
 
-### 1️⃣ **El botón de sorteo no funciona**  
-**Posible causa:** No se ha vinculado correctamente el evento `click` en JavaScript.  
-**Solución:** Asegúrate de que el script está cargado correctamente y que el evento `addEventListener` está bien aplicado.  
+Puedes probar el proyecto en el siguiente enlace:  
+[**Amigo Secreto - Demo en vivo**](https://jvanegas2000.github.io/challenge-amigo-secreto_esp-main/)
 
-### 2️⃣ **El resultado muestra "undefined" o "null"**  
-**Posible causa:** La lista de amigos está vacía o el código intenta acceder a un índice inexistente.  
-**Solución:** Verifica que la lista contenga elementos antes de hacer el sorteo.  
+## 📂 Estructura del Proyecto
 
-### 3️⃣ **Los estilos no se aplican correctamente**  
-**Posible causa:** La hoja de estilos (CSS) no está bien enlazada o hay errores en las clases.  
-**Solución:** Asegúrate de que el `<link>` a CSS está bien escrito y que los nombres de clases coincidan.  
+El proyecto está organizado de la siguiente manera:
 
-### 4️⃣ **No se actualiza la lista de amigos al agregar nuevos nombres**  
-**Posible causa:** La manipulación del DOM no está refrescando la visualización correctamente.  
-**Solución:** Usa `innerHTML` o `appendChild()` correctamente después de modificar la lista.  
+📁 **challenge-amigo-secreto_esp-main/**
+- 📁 **assets/**
+  - 🖼️ `amigo-secreto.png`: Imagen del banner principal.
+  - 🖼️ `play_circle_outline.png`: Ícono para el botón de sorteo.
+  - 🔊 `success.mp3`: Sonido de éxito.
+  - 🔊 `error.mp3`: Sonido de error.
+  - 🔊 `winning.mp3`: Sonido de ganador.
+- 📄 `app.js`: Lógica principal del juego.
+- 📄 `index.html`: Estructura HTML del proyecto.
+- 🎨 `style.css`: Estilos del proyecto.
 
-## 💡 Reflexión Final  
+## 🖥️ Cómo usar el proyecto
 
-Este proyecto no solo es una práctica de programación, sino también una oportunidad para aprender a resolver problemas de forma estructurada. Cada error es una lección, cada solución un paso adelante. No importa cuán pequeño parezca un proyecto, cada línea de código escrita es un avance en el camino del aprendizaje.  
+1. **Clona el repositorio**:
+   ```bash
+   git clone https://github.com/tu-usuario/challenge-amigo-secreto_esp-main.git
 
-✨ ¡Sigue explorando, sigue aprendiendo y sigue creando! 🚀  
+Abre el archivo `index.html` en tu navegador.  
+Agrega nombres en el campo de texto y haz clic en "Añadir".  
+Una vez que tengas una lista de amigos, haz clic en "Sortear amigo" para realizar el sorteo.  
+Disfruta del resultado y reinicia el juego si lo deseas.
 
-📌 ¡Contribuciones y mejoras son bienvenidas!  
+## 🛠️ Tecnologías utilizadas
+
+- **HTML5**: Para la estructura del proyecto.
+- **CSS3**: Para los estilos y diseño responsivo.
+- **JavaScript**: Para la lógica del juego y las interacciones dinámicas.
+
+## 🎨 Capturas de pantalla
+
+### Pantalla principal
+![Pantalla Principal](assets/Pantalla_Principal.png)
+
+### Resultado del sorteo
+![Pantalla Principal](assets/Pantalla_Resultado.png)
+
+## 🔊 Sonidos
+
+El proyecto incluye sonidos personalizados para mejorar la experiencia del usuario:
+
+- **Sonido de éxito**: Se reproduce al agregar un amigo o al realizar un sorteo exitoso.
+- **Sonido de error**: Se reproduce cuando ocurre un error, como intentar agregar un nombre vacío.
+- **Sonido de ganador**: Se reproduce al seleccionar al amigo secreto.
+
+## 📜 Licencia
+
+Este proyecto está bajo la licencia [MIT](https://opensource.org/licenses/MIT). Siéntete libre de usarlo, modificarlo y compartirlo.
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Si tienes ideas para mejorar el proyecto, no dudes en abrir un issue o enviar un pull request.
