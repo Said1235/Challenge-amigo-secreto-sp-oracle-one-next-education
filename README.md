@@ -23,17 +23,13 @@
 - **Reinicio del juego**: Una vez que todos los amigos han sido sorteados, se puede reiniciar el juego para comenzar de nuevo.
 
 
-## 📂 Caracterisitcas:
-## ✨ Características
-
-- 📋 Registro rápido sin necesidad de cuenta.
-- 🔄 Sorteo automático y notificación de asignaciones.
-- 💰 Configuración de presupuesto y reglas del intercambio.
-- 📩 Envío de mensajes anónimos entre participantes.
-- 🎨 Diseño minimalista y fácil de usar.
+## ¿Como usar?
 
 
-
+. Abra el archivo "index.html"
+. Ingresa los nombres de los participantes.
+ . La app asignará automáticamente a cada persona su **amigo secreto**.
+. ¡Listo! Todos recibirán su asignación y podrán enviar mensajes anónimos
 
 
 ## 🛠️ Tecnologías utilizadas
@@ -41,6 +37,10 @@
 - **HTML5**: Para la estructura del proyecto.
 - **CSS3**: Para los estilos y diseño responsivo.
 - **JavaScript**: Para la lógica del juego y las interacciones dinámicas.
+  
+
+**Nota:** Este proyecto forma parte de un proyecto educativo de Oracle One Next Education. El priyecto corrosponde al grupo g8
+  
 
 
 ##  Licencia
